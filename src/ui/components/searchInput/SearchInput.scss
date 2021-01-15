@@ -1,0 +1,19 @@
+.search-input-container {
+  width: 50%;
+  display: flex;
+
+  /* Custom, iPhone Retina */ 
+  @media (max-width : 320px) {
+    width: 100%;
+  }
+
+  /* Extra Small Devices, Phones */ 
+  @media (max-width : 480px) {
+    width: 100%;
+  }
+
+  /* Small Devices, Tablets */
+  @media (max-width : 768px) {
+    width: 100%;
+  }
+}

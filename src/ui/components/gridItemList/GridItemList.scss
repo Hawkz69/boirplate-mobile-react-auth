@@ -1,0 +1,89 @@
+@import "../../shared/style/variables.scss";
+
+.fields {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  height: 40px;
+
+  &.four {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  &.five {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  &.six {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.actions-list {
+  display: flex;
+
+  p {
+    cursor: pointer;
+    color: $primary-color;
+    max-width: 85%;
+  }
+
+  span {
+    margin: 0;
+    margin: 15px;
+  }
+
+  svg {
+    margin-top: -25px;
+  }
+
+  button {
+    margin-top: -25px;
+  }
+
+  p:hover {
+    text-decoration: underline;
+  }
+
+  // span {
+  //   margin: 16px;
+  // }
+}
+
+.disabled {
+  cursor: default;
+  color: gray !important;
+  max-width: 85%;
+
+  span {
+    cursor: default;
+    color: gray !important;
+    margin: 0;
+    margin: 15px 15px;
+  }
+
+  svg {
+    cursor: default;
+    fill: gray !important;
+    margin-top: -25px;
+  }
+
+  button {
+    cursor: default;
+    margin-top: -25px;
+  }
+}
+
+.title-item-description {
+  margin: 0px;
+  align-self: center;
+}
+
+.divider {
+  width: 100%;
+  border-color: #f6f6f6;
+  border: solid 1px #f6f6f6;
+  color:  #f6f6f6;
+  margin: 0 auto;
+}

@@ -1,0 +1,59 @@
+@import '../../../shared/style/variables.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-main {
+  background-color: #eeeeee;
+  width: 100%;
+  height: auto;
+  border: 0px;
+  position: absolute;
+}
+
+.div-logo-login {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.div-form {
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.div-remember {
+  display: flex;
+  justify-content: space-between;
+  width: 85%; 
+  margin: auto;
+  margin-top: 20px;
+}
+
+.div-create-account {
+  width: 85%; 
+  margin: auto;
+  margin-top: 20px;
+}
+
+.div-signin {
+  width: 90%;
+  margin: auto;
+  font-size: 13px;
+  font-family: Roboto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link {
+  color: $primary-color;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,52 @@
+.item-menu-link {
+  text-decoration: none;
+  color: gray;
+
+  &.disabled {
+    cursor: default;
+    background-color: rgb(79, 79, 79);
+  }
+}
+
+.menu-disabled {
+  background-color: rgb(175, 175, 175);
+}
+
+.drawer {
+  width: 50%;
+  max-width: 300px;
+}
+
+.item-menu {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 10px;
+  height: 40px;
+
+  p {
+    margin-left: 10px;
+  }
+}
+
+.photo-user {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.user-name-menu {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 10px 10px;
+  font-family: 'Roboto';
+}
+
+.user-date-menu {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 10px 10px;
+  font-family: 'Roboto';
+  color: gray
+}

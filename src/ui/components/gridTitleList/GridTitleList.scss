@@ -1,0 +1,30 @@
+.grid {
+  margin-top: 3em;
+  width: 100%;
+  border: solid 1px rgb(211, 211, 211);
+}
+
+.titles {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(246,246,246);
+  border-bottom: solid 1px rgb(211, 211, 211);
+
+  &.four {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  &.five {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  &.six {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.title-item {
+  margin: 0px;
+  padding: 10px;
+}
